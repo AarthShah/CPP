@@ -84,7 +84,7 @@ int main() {
 	Book b1;
 	b1.getinfo();
 	float arr[20]={10,11,12,13,14,15,16,17,18,19};
-	Book b2("BOOK","Haris",121,true,arr,10);
+	Book b2("BOOK","Ashwajeet",151,true,arr,10);
 
 	b2.getinfo();
 	Book b3=b2;
