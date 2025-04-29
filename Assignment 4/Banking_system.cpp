@@ -61,10 +61,10 @@ int main(){
 	Bank b1;
 	b1.deposit(5000);
 	b1.deposit(1500.75);
-	b1.deposit("gpay@upi",2500);
+	b1.deposit("gpay@upi",1500);
 	
-	Account a1(1,10000);
-	Account a2(2,5000);
+	Account a1(1,20000);
+	Account a2(2,6000);
 	
 	a1+a2;
 	a1-2000;
